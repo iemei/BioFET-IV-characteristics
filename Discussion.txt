@@ -1,0 +1,29 @@
+# Ids - Vbg characteristics
+
+The backgate voltage Vbg is swept from -20V to 30V and the drain current Ids is recorded for different lateral gate voltages Vjg = -1.5V, -1.25V, -1V, -0.75V, -0.5V -0.25V, 0V and the reference gate voltage is kept constant at 0.3V.
+
+The channel dimensions are:
+length = 1um
+width = 0.5um
+thickness = 145nm
+
+The MNC BioFET is an accumulation type n-channel transistor
+
+The channel conduction is divided into three regions: the top, the middle and the bottom 
+
+# Threshold voltage extraction
+
+At Vbg = -20V, the entire channel is depleted and as it becomes more and more positive, the depletion region recedes and the corresponding conduction regions open up.
+
+This is clearly evident in the second derivative plot shown in Figure 4 where each peak indicates the setting in of strong accumulation in each region.
+
+The threshold voltage Vth is extracted using three methods: √Ids method (Figure 2), max transconductance gm method (Figure 3) and the second derivative method (Figure 4)
+
+We observe that the √Ids method extracts the threshold voltage of the top conduction region. The positive biasing of Vref = 0.3V already presents favorable condition for accumulation so the top region opens up
+
+The max second derivative method extracts the threshold voltage of the middle conduction channel and the second peak indicates the bulk conduction channel due to strong accumulation throughout the channel as the backgate voltage is positive
+
+The max transconductance method gives the threshold voltage of the bottom conduction channel
+
+
+
